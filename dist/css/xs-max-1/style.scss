@@ -67,3 +67,21 @@ body {
     }
   }
 }
+
+/* ----------------------- HERO SECTION INSIDE HEADER ----------------------- */
+#second{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url(../../../assets/img/showcase.jpg) no-repeat center;
+    padding-inline: 20px;
+    color: $light-color;
+    h2{
+        font-size: 3.0rem;
+        color: $secondary-color;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+}

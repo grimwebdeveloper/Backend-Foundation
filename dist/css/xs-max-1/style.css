@@ -57,4 +57,22 @@ body {
 }
 #first #navbar #navbar-right ul li a:hover {
   color: #e8491d;
+}
+
+/* ----------------------- HERO SECTION INSIDE HEADER ----------------------- */
+#second {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: url(../../../assets/img/showcase.jpg) no-repeat center;
+  padding-inline: 20px;
+  color: #ffffff;
+}
+#second h2 {
+  font-size: 3rem;
+  color: #e8a246;
+}
+#second p {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=style.css.map */
