@@ -148,3 +148,23 @@ body {
     margin: auto;
 }
 
+/* --------------------------------- FOOTER --------------------------------- */
+footer{
+    background-color: $dark-color;
+    color: $light-color;
+    font-size: 1.6rem;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p{
+    margin: 10px 0;
+}
+
+footer p:first-child{
+    color: $primary-color;
+}
+
+footer p:last-child{
+    color: $secondary-color;
+}

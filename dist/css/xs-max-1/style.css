@@ -136,4 +136,25 @@ body {
 
 #service-boxes > div img {
   margin: auto;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.6rem;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer p:first-child {
+  color: #e8491d;
+}
+
+footer p:last-child {
+  color: #e8a246;
 }/*# sourceMappingURL=style.css.map */
