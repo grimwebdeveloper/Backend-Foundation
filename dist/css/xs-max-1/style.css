@@ -110,4 +110,30 @@ body {
   width: 50rem;
   height: 30px;
   border: 0;
+}
+
+/* -------------------------------- SERVICES -------------------------------- */
+#service-boxes > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+#service-boxes h2 {
+  font-size: 3rem;
+  color: #e8491d;
+}
+
+#service-boxes p {
+  font-size: 1.6rem;
+}
+
+#service-boxes img {
+  width: 30%;
+  height: auto;
+}
+
+#service-boxes > div img {
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
