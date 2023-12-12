@@ -26,6 +26,13 @@ a {
   text-decoration: none;
 }
 
+.primary-button{
+    background-color: $secondary-color;
+    color: $light-color;
+    border: 0;
+    height: 30px;
+}
+
 /* ---------------------------------- BODY ---------------------------------- */
 body {
   display: grid;
@@ -85,3 +92,32 @@ body {
         font-size: 1.6rem;
     }
 }
+
+/* ------------------------------- NEWSLETTER ------------------------------- */
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $dark-color;
+    color: $light-color;
+    padding: 30px 0;
+}
+
+#newsletter h2{
+    font-size: 3.0rem;
+    margin-bottom: 10px;
+    color: $secondary-color;
+}
+
+#newsletter form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#newsletter form input[type]{ 
+    width: 50rem;
+    height: 30px;
+    border: 0;
+}
+
