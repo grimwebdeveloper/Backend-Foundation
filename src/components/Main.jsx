@@ -25,7 +25,7 @@ const Main = () => {
         scale: 1.5,
         immediateRender: false,
         scrollTrigger: {
-          markers: true,
+        //   markers: true,
           start: 'top 150%',
           end: 'top 0',
           scrub: 1,
@@ -39,7 +39,7 @@ const Main = () => {
       scale: 2,
       immediateRender: false,
       scrollTrigger: {
-        markers: true,
+        // markers: true,
         start: 'top 150%',
         end: 'top 0',
         scrub: 1,
